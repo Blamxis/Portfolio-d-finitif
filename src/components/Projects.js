@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/Webagency img.png";
 import projImg2 from "../assets/img/coffeeProject.png";
+import projImg3 from "../assets/img/memory game.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -19,7 +20,13 @@ export const Projects = () => {
             title: "Café Des Délices",
             description: "Design & Développement",
             imgUrl: projImg2,
-        }, 
+        },
+
+        {
+            title: "Memory Game",
+            description: "Design & Développement",
+            imgUrl: projImg3,
+        }
     ];
 
     return (
