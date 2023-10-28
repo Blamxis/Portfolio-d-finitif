@@ -1,9 +1,17 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1(1).svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/HTML5_Badge.svg-removebg-preview.png";
+import meter2 from "../assets/img/css-3.svg";
+import meter3 from "../assets/img/bootstrap-logo-removebg-preview.png";
+import meter4 from "../assets/img/javascript-logo-1-removebg-preview.png";
+import meter5 from "../assets/img/nodejs-logo-removebg-preview.png";
+import meter6 from "../assets/img/Git_icon-removebg-preview.png";
+import meter7 from "../assets/img/Icon-github-removebg-preview.png";
+import meter8 from "../assets/img/icon-php-removebg-preview.png";
+import meter9 from "../assets/img/icon_symfony-removebg-preview.png";
+import meter10 from "../assets/img/logo_react-removebg-preview.png";
+import meter11 from "../assets/img/icon_npm-removebg-preview.png";
 import colorSharp from "../assets/img/color-sharp.png";
 
 
@@ -36,24 +44,41 @@ export const Skills = () => {
             <div className="skill-box">
               <h2>Compétences</h2>
               <p>
-                Je suis compétent dans différentes technologies comme HTML, CSS, JS, BOOTSTRAP, GIT & GITHUB, PHP, SYMFONY ANSI QUE REACT.
+                Je suis compétent dans différentes technologies web.
               </p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
                     <img src={meter1} alt="Img" />
-                    <h5>Développement Web</h5>
                 </div>
                 <div className="item">
-                    <img src={meter2} alt="Img" />
-                    <h5>Brand Identity</h5>
+                    <img src={meter2} alt="Img" /> 
                 </div>
                 <div className="item">
                     <img src={meter3} alt="Img" />
-                    <h5>Logo Design</h5>
                 </div>
                 <div className="item">
-                    <img src={meter1} alt="Img" />
-                    <h5>Développement Web</h5>
+                    <img src={meter4} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter5} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter6} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter7} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter8} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter9} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter10} alt="Img" />
+                </div>
+                <div className="item">
+                    <img src={meter11} alt="Img" />
                 </div>
               </Carousel>
             </div>
