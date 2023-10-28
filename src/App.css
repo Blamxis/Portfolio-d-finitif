@@ -323,13 +323,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @keyframes updown {
     0% {
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
     50% {
-        transform: translateY(30px);
+        transform: translateY(40px);
     }
     100% {
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
 }
 .txt-rotate > .wrap {
@@ -578,4 +578,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+/************ Footer Css ************/
+
+.footer {
+  padding: 0 0 50px 0;
+  background-image: url('./assets/img/footer-bg.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer img {
+  width: 25%;
+}
+
+.footer .social-icon {
+  margin-top: 50px;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 }

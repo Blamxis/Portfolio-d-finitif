@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../assets/img/logo_gorille-removebg-preview.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon2 from '../assets/img/icon github.svg';
+import navIcon3 from '../assets/img/discord-svgrepo-com.svg';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -41,16 +41,14 @@ export const NavBar = () => {
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Accueil</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Compétences</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projets</Nav.Link>
+            <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Contact</Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="icon1" /></a>
-              <a href="#"><img src={navIcon2} alt="icon2" /></a>
-              <a href="#"><img src={navIcon3} alt="icon3" /></a>
+              <a href="https://fr.linkedin.com/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="icon1" /></a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer"><img src={navIcon2} alt="icon2" /></a>
+              <a href="https://discord.com/" target="_blank" rel="noreferrer"><img src={navIcon3} alt="icon3" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let's Connect</span>
-            </button>
           </span>
         </Navbar.Collapse>
       </Container>
