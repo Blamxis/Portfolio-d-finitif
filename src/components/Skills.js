@@ -48,44 +48,44 @@ export const Skills = () => {
               </p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                    <img src={meter1} alt="Img" />
+                    <img src={meter1} alt="html" />
                 </div>
                 <div className="item">
-                    <img src={meter2} alt="Img" /> 
+                    <img src={meter2} alt="css" /> 
                 </div>
                 <div className="item">
-                    <img src={meter3} alt="Img" />
+                    <img src={meter3} alt="bootstrap" />
                 </div>
                 <div className="item">
-                    <img src={meter4} alt="Img" />
+                    <img src={meter4} alt="javascript" />
                 </div>
                 <div className="item">
-                    <img src={meter5} alt="Img" />
+                    <img src={meter5} alt="nodejs" />
                 </div>
                 <div className="item">
-                    <img src={meter6} alt="Img" />
+                    <img src={meter6} alt="git" />
                 </div>
                 <div className="item">
-                    <img src={meter7} alt="Img" />
+                    <img src={meter7} alt="Github" />
                 </div>
                 <div className="item">
-                    <img src={meter8} alt="Img" />
+                    <img src={meter8} alt="php" />
                 </div>
                 <div className="item">
-                    <img src={meter9} alt="Img" />
+                    <img src={meter9} alt="symfo" />
                 </div>
                 <div className="item">
-                    <img src={meter10} alt="Img" />
+                    <img src={meter10} alt="react" />
                 </div>
                 <div className="item">
-                    <img src={meter11} alt="Img" />
+                    <img src={meter11} alt="npm" />
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} />
+      <img className="background-image-left" src={colorSharp} alt="bgleft" />
     </section>
   );
 };

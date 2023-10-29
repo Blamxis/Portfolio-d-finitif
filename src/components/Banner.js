@@ -44,8 +44,6 @@ export const Banner = () => {
     return () => { clearInterval(ticker)};
 }, [text, delta, isDeleting, loopNum, toRotate, setLoopNum, setIsDeleting, setDelta, setText, period])
 
-    
-
     return (
         <section className="banner" id="home">
             <Container>
@@ -61,7 +59,7 @@ export const Banner = () => {
                                 aujourd'hui, j'ai décidé de franchir un cap. Je suis en formation 
                                 avec STUDI pour passer mon titre de <b>Graduate Developper Web et Web Mobile</b>.
                                 Je suis quelqu'un de <b>Curieux</b>, <b>Ambitieux</b> et surtout <b>Perfectioniste</b> alors les projets sont pour moi un cadeau afin de m'améliorer dans ce que j'aime <b>Coder</b>.</p>
-                                <button onClick={() => console.log("connect")}>Me contacter <ArrowRightCircle size={25} /></button>
+                                <button onClick={() => console.log("connect")}>En savoir plus <ArrowRightCircle size={25} /></button>
                             </div>}
                         </TrackVisibility>
                     </Col>
